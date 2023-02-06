@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <scripts src="node_modules/vue/dist/vue.global.js"> 
+
+    </script>
+    <style>
+        body{
+            background-color: brown;
+            color: bisque;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+        }
+        #letpanel{
+            background-color: burlywood;
+            height: 120px;
+            width: 67px;
+            text-overflow: scroll;
+        }
+        p{
+            overflow: hidden;
+        }
+
+        #main,
+        #leftpanel,
+        #p{
+            position: relative;
+            bottom: 80%;
+        }
+    </style>
+</head>
+<body>
+    <div id="app">
+        <div id="title">
+            the title will be placed here
+            <br>
+        </div>
+        <div id="nav">
+            <div id="leftpanel">
+                <p>
+                    <em>Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+                         Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, 
+                         when an unknown printer took a galley of type and scrambled it to make a type specimen book. 
+                        It has survived not only five centuries</em></p>
+                
+            </div>
+        </div>
+    </div>
+    <script src="vue.js"></script>
+    <script>
+ const mountedApp=app class=mount(`#app`)
+    </script>
+</body>
+</html>
